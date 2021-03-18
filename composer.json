@@ -1,0 +1,25 @@
+{
+    "name": "openpsa/org-openpsa-httplib",
+    "type": "midcom-package",
+    "description": "HTTP client library",
+    "keywords": ["midcom", "http client"],
+    "homepage": "https://openpsa2.org",
+    "license": "LGPL-2.1-or-later",
+    "authors": [
+        {
+            "name": "Andreas Flack",
+            "email": "flack@contentcontrol-berlin.de",
+            "homepage": "http://www.contentcontrol-berlin.de/"
+        }
+    ],
+    "require": {
+        "openpsa/midcom-core": "dev-main",
+        "symfony/dom-crawler": ">=4.4",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "autoload": {
+        "classmap": ["lib"]
+    }
+}
