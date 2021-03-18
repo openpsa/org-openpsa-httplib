@@ -1,0 +1,6 @@
+'name' => 'org.openpsa.httplib',
+'icon' => 'cloud',
+'purecode' => true,
+'privileges' => [],
+'class_mapping' => [],
+'description' => 'HTTP client library',
