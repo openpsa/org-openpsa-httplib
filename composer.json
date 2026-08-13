@@ -16,7 +16,7 @@
         "openpsa/midcom-core": "dev-main",
         "symfony/css-selector": ">=7.4",
         "symfony/dom-crawler": ">=7.4",
-        "guzzlehttp/guzzle": "^7.2"
+        "guzzlehttp/guzzle": "^8.0"
     },
     "prefer-stable": true,
     "minimum-stability": "dev",
